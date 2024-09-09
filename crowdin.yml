@@ -1,11 +1,11 @@
-"project_id_env": "projectId"
-"api_token_env": "personal-access-token"
+"project_id_env": "CROWDIN_PROJECT_ID"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
 "preserve_hierarchy": true
 "base_url": "https://andriy.crowdin.com"
 
 "files": [
   {
-    "source": "/en/en.json",                                       #source files filter
-    "translation": "/%two_letters_code%/%two_letters_code%.json"        #where translations are stored
+    "source": "/en/en.json",
+    "translation": "/%two_letters_code%/%two_letters_code%.json"
   }
 ]
